@@ -225,7 +225,7 @@
 
                 console.log("FormData object created:", formData); // Log the FormData object
 
-                fetch('knowyourdoc-backend-production.up.railway.app', {
+                fetch('knowyourdoc-backend-production.up.railway.app/upload-pdf', {
                     method: 'POST',
                     body: formData,
                 })
